@@ -13,9 +13,9 @@ export default function App() {
       <Home />
       <About />
       <Capacity />
-      <Comment />
+      {/* <Comment />
       <Program />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
