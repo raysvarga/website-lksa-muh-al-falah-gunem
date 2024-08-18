@@ -12,8 +12,8 @@ function Program() {
         </p>
       </div>
 
-      <div className="lg:flex lg:justify-between lg:mx-[500px] lg:gap-5 lg:flex-wrap">
-        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center">
+      <div className="lg:flex lg:justify-center lg:mx-[200px] lg:gap-5 lg:flex-wrap">
+        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center lg:w-[430px]">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ function Program() {
           </p>
         </div>
 
-        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center">
+        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center lg:w-[430px]">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ function Program() {
           </p>
         </div>
 
-        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center">
+        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center lg:w-[430px]">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ function Program() {
           </p>
         </div>
 
-        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center">
+        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center lg:w-[430px]">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ function Program() {
           </p>
         </div>
 
-        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center">
+        <div className="flex flex-col px-10 py-16 gap-3 bg-white rounded-xl mb-5 items-center text-center lg:w-[430px]">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

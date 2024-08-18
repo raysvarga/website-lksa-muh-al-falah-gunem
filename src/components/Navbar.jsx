@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="h-20 flex justify-between items-center px-3 w-full fixed z-10 bg-white backdrop-blur-md bg-opacity-50 shadow-sm lg:px-72">
-      <img src={lksa} alt="" className="h-9" />
+      <a href=""><img src={lksa} alt="" className="h-9" /></a>
       <div className="flex items-center gap-3">
         <div className="hidden lg:flex gap-8">
           <a
@@ -57,7 +57,7 @@ const Navbar = () => {
           </a>
         </div>
         <a href="#contact">
-          <Button>Kontak</Button>
+          <Button>Hubungi Kami</Button>
         </a>
         <div className="relative lg:hidden">
           <svg
