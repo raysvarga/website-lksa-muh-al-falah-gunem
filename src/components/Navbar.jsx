@@ -16,44 +16,47 @@ const Navbar = () => {
 
   return (
     <div className="h-20 flex justify-between items-center px-3 w-full fixed z-10 bg-white backdrop-blur-md bg-opacity-50 shadow-sm lg:px-72">
-      <a href=""><img src={lksa} alt="" className="h-9" /></a>
+      <a href="">
+        <img src={lksa} alt="" className="h-14" />
+      </a>
       <div className="flex items-center gap-3">
         <div className="hidden lg:flex gap-8">
           <a
             href="#home"
             onClick={() => handleSetActiveSection("home")}
-            className={`${
-              activeSection === "home" ? "text-[#2487ce]" : ""
-            }`}
+            className={`${activeSection === "home" ? "text-[#2487ce]" : ""}`}
           >
             Beranda
           </a>
           <a
             href="#about"
             onClick={() => handleSetActiveSection("about")}
-            className={`${
-              activeSection === "about" ? "text-[#2487ce]" : ""
-            }`}
+            className={`${activeSection === "about" ? "text-[#2487ce]" : ""}`}
           >
             Tentang
           </a>
           <a
             href="#comment"
             onClick={() => handleSetActiveSection("comment")}
-            className={`${
-              activeSection === "comment" ? "text-[#2487ce]" : ""
-            }`}
+            className={`${activeSection === "comment" ? "text-[#2487ce]" : ""}`}
           >
             Pendapat
           </a>
           <a
             href="#program"
             onClick={() => handleSetActiveSection("program")}
-            className={`${
-              activeSection === "program" ? "text-[#2487ce]" : ""
-            } mr-6`}
+            className={`${activeSection === "program" ? "text-[#2487ce]" : ""}`}
           >
             Program
+          </a>
+          <a
+            href="#documentation"
+            onClick={() => handleSetActiveSection("documentation")}
+            className={`${
+              activeSection === "documentation" ? "text-[#2487ce]" : ""
+            } mr-6`}
+          >
+            Dokumentasi
           </a>
         </div>
         <a href="#contact">
@@ -112,6 +115,15 @@ const Navbar = () => {
                 }`}
               >
                 Program
+              </a>
+              <a
+                href="#documentation"
+                onClick={() => handleSetActiveSection("documentation")}
+                className={`block px-4 py-2 text-gray-700 hover:bg-gray-100 ${
+                  activeSection === "documentation" ? "text-[#2487ce]" : ""
+                }`}
+              >
+                Dokumentasi
               </a>
             </div>
           )}
