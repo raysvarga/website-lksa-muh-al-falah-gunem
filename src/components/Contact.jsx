@@ -18,7 +18,7 @@ function Contact() {
         <div className="mb-5 px-2" data-aos="fade-up" data-aos-delay="200">
           <iframe
             style={{ border: 0, width: "100%", height: "270px" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.052298138957!2d111.4630684!3d-6.8062993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e773d007aa5fbc7%3A0xbd943350ead4e2b!2sPantai%20Asuhan%2FLKSA%20Al-Falah%20Gunem!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1218.6880683991183!2d111.4650642696195!3d-6.805884667919822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDgnMjEuMiJTIDExMcKwMjcnNTYuNiJF!5e1!3m2!1sid!2sid!4v1724089929441!5m2!1sid!2sid"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
