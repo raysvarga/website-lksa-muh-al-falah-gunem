@@ -46,13 +46,13 @@ function Home() {
             </svg>
           </div>
           <h2 className="text-[#124265] text-lg font-semibold">
-            Pendampingan Pendidikan Berkualitas
+            Pendidikan dan Pembinaan
           </h2>
           <p className="text-black text-opacity-50">
-            LKSA Muhammadiyah Al-Falah Gunem menyediakan program pendidikan
-            berkualitas dengan kurikulum yang mendukung perkembangan akademik
-            dan pribadi anak-anak. Pengajaran dilakukan oleh tenaga pendidik
-            yang berpengalaman dan berdedikasi.
+            Lembaga ini bertujuan untuk memberikan pendidikan dan pembinaan yang
+            berkualitas kepada anak-anak. Melalui berbagai program pendidikan,
+            diharapkan anak-anak dapat mengembangkan potensi mereka dan
+            memperoleh keterampilan yang berguna untuk masa depan.
           </p>
         </div>
 
@@ -70,12 +70,14 @@ function Home() {
             </svg>
           </div>
           <h2 className="text-[#124265] text-lg font-semibold">
-            Kesehatan Terjamin
+            Kebutuhan Sosial
           </h2>
           <p className="text-black text-opacity-50">
-            Fokus pada kesehatan anak-anak merupakan prioritas utama. Kami
-            menyediakan fasilitas kesehatan yang memadai untuk memastikan
-            kesejahteraan fisik dan mental anak-anak.
+            LKSA Muhammadiyah Al-Falah Gunem didirikan untuk memenuhi kebutuhan
+            anak-anak yang kurang mampu dan membutuhkan perlindungan serta
+            bimbingan. Lembaga ini berkomitmen untuk memberikan perhatian dan
+            bantuan kepada anak-anak yang mungkin mengalami kesulitan dalam
+            kehidupan mereka.
           </p>
         </div>
 
@@ -94,13 +96,13 @@ function Home() {
             </svg>
           </div>
           <h2 className="text-[#124265] text-lg font-semibold">
-            Pengembangan Keterampilan dan Kreativitas
+            Pengembangan Karakter
           </h2>
           <p className="text-black text-opacity-50">
-            Anak-anak mendapatkan kesempatan untuk mengembangkan keterampilan
-            dan kreativitas mereka melalui berbagai aktivitas ekstrakurikuler,
-            pelatihan keterampilan, dan program seni. Ini bertujuan untuk
-            membekali mereka dengan keterampilan praktis dan kreatif.
+            LKSA juga berupaya membangun karakter anak-anak dengan nilai-nilai
+            moral dan etika yang kuat. Ini bertujuan untuk mencetak generasi
+            muda yang tidak hanya cerdas secara intelektual, tetapi juga
+            memiliki integritas dan kepedulian sosial.
           </p>
         </div>
 
@@ -108,28 +110,29 @@ function Home() {
           <div className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="#000"
-              viewBox="0 0 24 24"
+              fill="#2487CE"
+              stroke="#2487CE"
+              viewBox="0 0 1024 1024"
               className="h-10"
             >
-              <path
-                stroke="#2487CE"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M16.343 21H21l-4-5.5h4L16.881 10H21l-6.957-7L9.5 7.5M3 16l4.424-4.022c.38-.345.57-.518.785-.583a1 1 0 0 1 .582 0c.215.065.405.238.785.583L14 16m-9-1.818V19.4c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437C5.76 21 6.04 21 6.6 21h3.8c.56 0 .84 0 1.054-.109a1 1 0 0 0 .437-.437C12 20.24 12 19.96 12 19.4v-5.218"
-              />
+              <path d="M99.012 149.446C-19.347 266.882-19.347 457.345 99.011 574.78L203.89 678.973c8.024 7.972 20.991 7.929 28.963-.095s7.929-20.991-.095-28.963L127.87 545.713c-102.22-101.423-102.22-265.776-.009-367.19 102.31-101.502 268.242-101.502 370.552.001 7.985 7.922 20.864 7.922 28.849-.001 102.3-101.502 268.241-101.502 370.541 0 102.221 101.414 102.221 265.767.001 367.18l-49.043 48.745c-8.022 7.974-8.062 20.941-.088 28.963s20.941 8.062 28.963.088l49.029-48.732c118.356-117.422 118.356-307.886-.013-425.322C813.078 36.757 631.788 32.283 512.837 136.024 393.878 32.283 212.597 36.757 99.013 149.445z" />
+              <path d="M572.466 263.522 848.68 539.736c15.104 15.104 15.104 39.607-.003 54.721-15.11 15.11-39.608 15.11-54.712 0L692.821 493.313c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963l101.14 101.14c31.096 31.11 81.534 31.11 112.644 0 31.099-31.113 31.099-81.546 0-112.644L601.428 234.558c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963z" />
+              <path d="m547.175 404.886 217.661 217.661c15.113 15.113 15.113 39.612.003 54.715-15.117 15.117-39.608 15.117-54.721.003l-101.13-101.13c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963l101.13 101.13c31.11 31.11 81.535 31.11 112.644 0 31.11-31.096 31.11-81.534 0-112.644L576.138 375.923c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963z" />
+              <path d="m464.975 490.364 216.023 216.023c15.113 15.113 15.113 39.612.003 54.715-15.117 15.117-39.608 15.117-54.721.003L371.673 506.498c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963l254.607 254.607c31.11 31.11 81.535 31.11 112.644 0 31.11-31.096 31.11-81.534 0-112.644L493.938 461.401c-7.998-7.998-20.965-7.998-28.963 0s-7.998 20.965 0 28.963zm104.582-256.875-162.714 161.69c-4.836 4.836-11.89 6.6-18.381 4.628l-47.119-14.352c-7.402-2.251-9.731-11.566-4.261-17.039l195.641-195.641c7.998-7.998 7.998-20.965 0-28.963s-20.965-7.998-28.963 0L308.115 339.457c-27.327 27.344-15.68 73.937 21.302 85.183l47.126 14.354c20.97 6.369 43.734.676 59.217-14.807l162.668-161.644c8.023-7.973 8.064-20.94.091-28.963s-20.94-8.064-28.963-.091z" />
+              <path d="M344.386 590.34c14.346-14.346 14.346-37.608 0-51.953l-2.765-2.765c-14.346-14.346-37.608-14.346-51.953 0l-59.32 59.32c-14.346 14.346-14.346 37.608 0 51.953l2.765 2.765c14.346 14.346 37.608 14.346 51.953 0l59.32-59.32zm28.964 28.963-59.32 59.32c-30.342 30.342-79.538 30.342-109.88 0l-2.765-2.765c-30.342-30.342-30.342-79.538 0-109.88l59.32-59.32c30.342-30.342 79.538-30.342 109.88 0l2.765 2.765c30.342 30.342 30.342 79.538 0 109.88z" />
+              <path d="m428.412 622.412-2.765-2.765c-14.346-14.346-37.608-14.346-51.953 0l-59.32 59.32c-14.346 14.346-14.346 37.608 0 51.953l2.765 2.765c14.346 14.346 37.608 14.346 51.953 0l59.32-59.32c14.346-14.346 14.346-37.608 0-51.953zm-30.357 140.237c-30.342 30.342-79.538 30.342-109.88 0l-2.765-2.765c-30.342-30.342-30.342-79.538 0-109.88l59.32-59.32c30.342-30.342 79.538-30.342 109.88 0l2.765 2.765c30.342 30.342 30.342 79.538 0 109.88l-59.32 59.32z" />
+              <path d="M512.436 758.39c14.346-14.346 14.346-37.608 0-51.953l-2.765-2.765c-14.346-14.346-37.608-14.346-51.953 0l-59.32 59.32c-14.346 14.346-14.346 37.608 0 51.953l2.765 2.765c14.346 14.346 37.608 14.346 51.953 0l59.32-59.32zm28.963 28.963-59.32 59.32c-30.342 30.342-79.538 30.342-109.88 0l-2.765-2.765c-30.342-30.342-30.342-79.538 0-109.88l59.32-59.32c30.342-30.342 79.538-30.342 109.88 0l2.765 2.765c30.342 30.342 30.342 79.538 0 109.88z" />
+              <path d="m596.46 790.462-2.765-2.765c-14.346-14.346-37.608-14.346-51.953 0l-59.32 59.32c-14.346 14.346-14.346 37.608 0 51.953l2.765 2.765c14.346 14.346 37.608 14.346 51.953 0l59.32-59.32c14.346-14.346 14.346-37.608 0-51.953zm-30.357 140.236c-30.342 30.342-79.538 30.342-109.88 0l-2.765-2.765c-30.342-30.342-30.342-79.538 0-109.88l59.32-59.32c30.342-30.342 79.538-30.342 109.88 0l2.765 2.765c30.342 30.342 30.342 79.538 0 109.88l-59.32 59.32z" />
             </svg>
           </div>
           <h2 className="text-[#124265] text-lg font-semibold">
-            Lingkungan yang Aman dan Mendukung
+            Kesejahteraan dan Kesehatan
           </h2>
           <p className="text-black text-opacity-50">
-            LKSA Al-Falah Gunem menciptakan lingkungan yang aman, nyaman, dan
-            mendukung bagi anak-anak. Kami memastikan bahwa setiap anak merasa
-            diterima, dihargai, dan memiliki tempat yang aman untuk tumbuh dan
-            berkembang.
+            Lembaga ini menyediakan berbagai layanan kesejahteraan dan bantuan
+            kesehatan, seperti bantuan berobat, dan dukungan psikologis. Ini
+            penting untuk memastikan bahwa anak-anak tumbuh dengan kondisi fisik
+            dan mental yang baik.
           </p>
         </div>
       </div>
