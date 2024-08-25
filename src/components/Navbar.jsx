@@ -59,7 +59,10 @@ const Navbar = () => {
             Dokumentasi
           </a>
         </div>
-        <a href="#contact">
+        <a
+          href="#contact"
+          onClick={() => handleSetActiveSection("contact")} // Menambahkan onClick untuk mengubah activeSection
+        >
           <Button>Hubungi Kami</Button>
         </a>
         <div className="relative lg:hidden">

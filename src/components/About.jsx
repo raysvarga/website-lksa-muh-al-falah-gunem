@@ -1,4 +1,5 @@
 import React from "react";
+import lksaprofile from "../assets/img/lksa-profile.png";
 
 function About() {
   return (
@@ -7,6 +8,7 @@ function About() {
         <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
           TENTANG
         </h1>
+        <img className="h-44 lg:h-80 mx-auto mb-5" src={lksaprofile} alt="" />
         <p className="text-black text-opacity-80 text-center">
           LKSA Muhammadiyah "Al-Falah" Gunem didirikan pada tanggal 9 Rajab 1445
           H bertepatan dengan 21 Januari 2024 oleh Pimpinan Daerah Muhammadiyah
