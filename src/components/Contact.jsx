@@ -26,12 +26,12 @@ function Contact() {
         </div>
 
         <div className="flex flex-col gap-3">
-          <div className="flex items-start px-5">
+          <div className="flex items-start px-3">
             <a
               href="https://www.google.com/maps/place/6%C2%B048'21.2%22S+111%C2%B027'56.6%22E/@-6.805885,111.465064,1119m/data=!3m1!1e3!4m4!3m3!8m2!3d-6.8058889!4d111.4657222?hl=id&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-start px-5"
+              className="flex items-start"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,12 +67,12 @@ function Contact() {
             </a>
           </div>
 
-          <div className="flex items-start px-5">
+          <div className="flex items-start px-3">
             <a
               href="https://wa.me/6281392081824?text=%D8%A7%D9%8E%D9%84%D9%92%D8%B3%D9%91%D9%8E%D9%84%D9%8E%D8%A7%D9%85%D9%8F%20%D8%B9%D9%8E%D9%84%D9%8E%D9%8A%D9%92%D9%83%D9%8F%D9%85%D9%92%20%D9%88%D9%8E%D8%B1%D9%8E%D8%AD%D9%92%D9%85%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D9%88%D9%8E%D8%A8%D9%8E%D8%B1%D9%8E%D9%83%D9%8E%D8%A7%20%D8%AA%D9%8F%D9%87%D9%8F%0A%0ASaya%20(%20)%20ingin%20menanyakan%20informasi%20(%20)%2Flebih%20lanjut%20tentang%20LKSA%20Muhammadiyah%20Al-Falah%20Gunem.%20Terima%20Kasih%0A%0A%D9%88%D9%8E%D8%B9%D9%8E%D9%84%D9%8E%D9%8A%D9%92%D9%83%D9%8F%D9%85%D9%8F%20%D8%A7%D9%84%D8%B3%D9%91%D9%8E%D9%84%D9%8E%D8%A7%D9%85%D9%8F%20%D9%88%D9%8E%D8%B1%D9%8E%D8%AD%D9%92%D9%85%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D9%88%D9%8E%D8%A8%D9%8E%D8%B1%D9%8E%D9%83%D9%8E%D8%A7%D8%AA%D9%8F%D9%87%D9%8F"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-start px-5"
+              className="flex items-start"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,12 +104,12 @@ function Contact() {
             </a>
           </div>
 
-          <div className="flex items-start px-5">
+          <div className="flex items-start px-3">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=lksamuhalfalahgunem@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-start px-5"
+              className="flex items-start"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

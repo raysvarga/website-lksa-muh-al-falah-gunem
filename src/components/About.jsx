@@ -1,14 +1,82 @@
 import React from "react";
 import lksaprofile from "../assets/img/lksa-profile.png";
+import ustad from "../assets/img/muslim.png";
+import ustadzah from "../assets/img/muslimah.png";
+import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
 
 function About() {
+  const CustomLeftArrow = ({ onClick }) => {
+    return (
+      <button
+        onClick={onClick}
+        className="absolute left-0 ml-2 top-1/2 transform -translate-y-1/2 bg-[#2487CE] text-white p-2 rounded-full w-8 h-8 flex items-center justify-center opacity-50 hover:opacity-100 transition-opacity duration-300"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-4 w-4"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M12.707 14.707a1 1 0 010-1.414L9.414 10l3.293-3.293a1 1 0 10-1.414-1.414l-4 4a1 1 0 000 1.414l4 4a1 1 0 001.414 0z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+    );
+  };
+
+  const CustomRightArrow = ({ onClick }) => {
+    return (
+      <button
+        onClick={onClick}
+        className="absolute right-0 mr-2 top-1/2 transform -translate-y-1/2 bg-[#2487CE] text-white p-2 rounded-full w-8 h-8 flex items-center justify-center opacity-50 hover:opacity-100 transition-opacity duration-300"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-4 w-4"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+    );
+  };
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   return (
     <div id="about" className="py-20 lg:mx-[350px]">
       <div className="px-3 mb-10">
         <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
           TENTANG
         </h1>
-        <img className="h-44 lg:h-80 mx-auto mb-5" src={lksaprofile} alt="" />
+        <img
+          className="h-44 lg:h-[500px] mx-auto mb-5"
+          src={lksaprofile}
+          alt=""
+        />
         <p className="text-black text-opacity-80 text-center">
           LKSA Muhammadiyah "Al-Falah" Gunem didirikan pada tanggal 9 Rajab 1445
           H bertepatan dengan 21 Januari 2024 oleh Pimpinan Daerah Muhammadiyah
@@ -73,6 +141,87 @@ function About() {
           </li>
         </ol>
       </div>
+      <h2 className="text-[#124265] text-2xl font-semibold pt-10 text-center">STRUKTUR ORGANISASI</h2>
+      <Carousel
+        swipeable={false}
+        draggable={false}
+        showDots={true}
+        responsive={responsive}
+        infinite={true}
+        autoPlaySpeed={1000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        customLeftArrow={<CustomLeftArrow />}
+        customRightArrow={<CustomRightArrow />}
+      >
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">Sudiyono, S.Ag</h2>
+              <p className="text-black text-opacity-80">Ketua LKSA</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">Surya Atmaja Putra</h2>
+              <p className="text-black text-opacity-80">Sekretaris</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustadzah} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">Ipmawati</h2>
+              <p className="text-black text-opacity-80">Tata Usaha</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">H. Aji Prakosa</h2>
+              <p className="text-black text-opacity-80">Bendahara</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">M. Wawan, S.Pd</h2>
+              <p className="text-black text-opacity-80">Bidang Pendidikan</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">Dhimas</h2>
+              <p className="text-black text-opacity-80">Bidang Kepengasuhan</p>
+            </a>
+          </div>
+        </div>
+        <div className="mx-5 my-5">
+          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
+            <a href="">
+              <img src={ustad} alt="" className="max-w-[200px] max-h-[200px] object-contain mx-auto" />
+              <h2 className="text-[#124265] text-lg font-semibold">Wahyu Trisyani</h2>
+              <p className="text-black text-opacity-80">Bidang Pembangunan</p>
+            </a>
+          </div>
+        </div>
+      </Carousel>
     </div>
   );
 }
