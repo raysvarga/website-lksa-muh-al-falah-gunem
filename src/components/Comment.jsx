@@ -64,7 +64,7 @@ function Comment() {
     },
   };
   return (
-    <div id="comment" className="py-20 lg:mx-[350px]">
+    <div id="comment" className="py-20 lg:mx-[350px] scroll-mt-20">
       <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
         PENDAPAT PARA DONATUR
       </h1>

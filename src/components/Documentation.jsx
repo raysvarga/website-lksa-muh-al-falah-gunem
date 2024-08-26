@@ -65,7 +65,7 @@ function Documentation() {
     },
   };
   return (
-    <div id="documentation" className="py-20 lg:mx-[350px]">
+    <div id="documentation" className="py-20 lg:mx-[350px] scroll-mt-20">
       <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
         DOKUMENTASI
       </h1>
@@ -91,47 +91,18 @@ function Documentation() {
         customRightArrow={<CustomRightArrow />}
       >
         <div className="mx-5 my-5">
-          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
-            <a href="">
+          <div className="bg-[#f6fafd] p-5 rounded-md relative text-center">
               <img src={g1} alt="" />
-              <h2 className="text-[#124265] text-lg font-semibold">
-                Pengajian & Santunan LKSA Muhammadiyah Al-Falah Gunem di Balai
-                Desa Gunem
+              <h2 className="text-[#124265] text-lg font-semibold mb-2">
+                Pengajian & Santunan di Kantor Kecamatan Gunem
               </h2>
-            </a>
-          </div>
-        </div>
-        <div className="mx-5 my-5">
-          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
-            <a href="">
-              <img src={g1} alt="" />
-              <h2 className="text-[#124265] text-lg font-semibold">
-                Pengajian & Santunan LKSA Muhammadiyah Al-Falah Gunem di Balai
-                Desa Gunem
-              </h2>
-            </a>
-          </div>
-        </div>
-        <div className="mx-5 my-5">
-          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
-            <a href="">
-              <img src={g1} alt="" />
-              <h2 className="text-[#124265] text-lg font-semibold">
-                Pengajian & Santunan LKSA Muhammadiyah Al-Falah Gunem di Balai
-                Desa Gunem
-              </h2>
-            </a>
-          </div>
-        </div>
-        <div className="mx-5 my-5">
-          <div className="bg-[#f6fafd] p-5 rounded-md ps-8 relative text-center">
-            <a href="">
-              <img src={g1} alt="" />
-              <h2 className="text-[#124265] text-lg font-semibold">
-                Pengajian & Santunan LKSA Muhammadiyah Al-Falah Gunem di Balai
-                Desa Gunem
-              </h2>
-            </a>
+              <span className="text-black text-opacity-80 text-sm">
+                Anak-anak LKSA Al-Falah Gunem mengikuti pengajian yang penuh
+                ilmu dan hikmah, serta menerima santunan sebagai bentuk
+                kepedulian dan kasih sayang. Acara ini bertujuan memperkuat iman
+                dan ukhuwah, serta membantu anak-anak dalam kebersamaan yang
+                penuh berkah.
+              </span>
           </div>
         </div>
       </Carousel>

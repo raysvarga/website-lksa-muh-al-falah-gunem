@@ -67,7 +67,7 @@ function About() {
     },
   };
   return (
-    <div id="about" className="py-20 lg:mx-[350px]">
+    <div id="about" className="py-20 lg:mx-[350px] scroll-mt-20">
       <div className="px-3 mb-10">
         <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
           TENTANG
@@ -78,7 +78,7 @@ function About() {
           alt=""
         />
         <p className="text-black text-opacity-80 text-center">
-          LKSA Muhammadiyah "Al-Falah" Gunem didirikan pada tanggal 9 Rajab 1445
+          <span className="font-semibold">LKSA Muhammadiyah Al-Falah Gunem</span> didirikan pada tanggal 9 Rajab 1445
           H bertepatan dengan 21 Januari 2024 oleh Pimpinan Daerah Muhammadiyah
           Rembang, H.M. Anshori, S.Pd, dan tokoh Muhammadiyah lain diantaranya
           H. Rohmat, Drs. H. Hadi Purwaningsih, Ir. H. Widodo, H. Nur Salim,
@@ -141,7 +141,7 @@ function About() {
           </li>
         </ol>
       </div>
-      <h2 className="text-[#124265] text-2xl font-semibold pt-10 text-center">STRUKTUR ORGANISASI</h2>
+      <h2 className="text-[#124265] text-2xl font-semibold pt-10 text-center">PENGURUS LKSA AL-FALAH</h2>
       <Carousel
         swipeable={false}
         draggable={false}

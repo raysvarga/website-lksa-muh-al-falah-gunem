@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import lksa from "../assets/img/lksa-logo.png";
+import lksa from "../assets/img/lksa-logo-ls.png";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="h-20 flex justify-between items-center px-3 w-full fixed z-10 bg-white backdrop-blur-md bg-opacity-50 shadow-sm lg:px-72">
       <a href="">
-        <img src={lksa} alt="" className="h-14" />
+        <img src={lksa} alt="" className="h-20 lg:h-24" />
       </a>
       <div className="flex items-center gap-3">
         <div className="hidden lg:flex gap-8">
@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
         <a
           href="#contact"
-          onClick={() => handleSetActiveSection("contact")} // Menambahkan onClick untuk mengubah activeSection
+          onClick={() => handleSetActiveSection("contact")}
         >
           <Button>Hubungi Kami</Button>
         </a>
