@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="bg-[#f6fafd]">
-      <div id="contact" className="py-20 lg:mx-[350px]">
+      <div id="contact" className="py-20 lg:mx-[350px] scroll-mt-20">
         <div>
           <h1 className="text-center text-[#124265] font-semibold text-3xl mb-5">
             KONTAK
@@ -144,7 +144,7 @@ function Contact() {
             </div>
           </div>
           <div className="px-3 lg:pl-40 mt-5 lg:mt-0">
-            <h3 className="text-lg font-bold">Jadwal Buka:</h3>
+            <h3 className="text-lg font-semibold text-[#124265]">Jadwal Buka:</h3>
             <ul className="list-disc ml-5">
               <li>Senin: 08.00 - 16.00 WIB</li>
               <li>Selasa: 08.00 - 16.00 WIB</li>

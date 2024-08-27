@@ -92,17 +92,19 @@ function Documentation() {
       >
         <div className="mx-5 my-5">
           <div className="bg-[#f6fafd] p-5 rounded-md relative text-center">
-              <img src={g1} alt="" />
-              <h2 className="text-[#124265] text-lg font-semibold mb-2">
-                Pengajian & Santunan di Kantor Kecamatan Gunem
-              </h2>
-              <span className="text-black text-opacity-80 text-sm">
-                Anak-anak LKSA Al-Falah Gunem mengikuti pengajian yang penuh
-                ilmu dan hikmah, serta menerima santunan sebagai bentuk
-                kepedulian dan kasih sayang. Acara ini bertujuan memperkuat iman
-                dan ukhuwah, serta membantu anak-anak dalam kebersamaan yang
-                penuh berkah.
-              </span>
+            <img src={g1} alt="" />
+            <h2 className="text-[#124265] text-lg font-semibold">
+              Pengajian & Santunan 1 Muharram 1449 H
+            </h2>
+            <p className="text-[#124265] text-opacity-80 text-center text-sm mb-2">
+              Ahad, 14/07/2024 | Pendopo Kec. Gunem
+            </p>
+            <span className="text-black text-opacity-80 text-sm italic">
+              Anak-anak LKSA Al-Falah Gunem mengikuti pengajian yang penuh ilmu
+              dan hikmah, serta menerima santunan sebagai bentuk kepedulian dan
+              kasih sayang. Acara ini bertujuan memperkuat iman dan ukhuwah,
+              serta membantu anak-anak dalam kebersamaan yang penuh berkah.
+            </span>
           </div>
         </div>
       </Carousel>
